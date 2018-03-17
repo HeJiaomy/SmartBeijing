@@ -4,12 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.smartbeijing.activity.MainActivity">
+    android:background="@mipmap/splash_bg_newyear"
+    android:id="@+id/launch_rl"
+    tools:context="com.smartbeijing.activity.SplashActivity">
 
-    <TextView
+    <ImageView
+        android:id="@+id/launch_img"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="我是主界面"
-        android:layout_centerInParent="true"/>
-
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:srcCompat="@mipmap/splash_horse_newyear" />
 </RelativeLayout>
